@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace LibraryOfDoom
 {
     public abstract class Character
+    {
 
         //Fields
         private string _name;
