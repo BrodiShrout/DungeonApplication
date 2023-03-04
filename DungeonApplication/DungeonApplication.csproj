@@ -11,4 +11,14 @@
     <PackageReference Include="System.Windows.Extensions" Version="7.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Character\LibraryOfDoom.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="wolfHowl.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
