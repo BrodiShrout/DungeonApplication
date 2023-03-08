@@ -51,7 +51,7 @@ namespace LibarayOfDoom
         public AncientVampire()
         {
             MaxLife = 18;
-            MaxDamage = 6;
+            MaxDamage = 7;
             Name = "Novice Vampire";
             Life = 18;
             HitChance = 11;

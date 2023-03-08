@@ -25,7 +25,7 @@ namespace LibarayOfDoom
         public Demon()
         {
             MaxLife = 23;
-            MaxDamage = 6;
+            MaxDamage = 7;
             Name = "Docile Demon ";
             Life = 23;
             HitChance = 16;

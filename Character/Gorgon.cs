@@ -24,7 +24,7 @@ namespace LibarayOfDoom
         //Method
         public Gorgon()
         {
-            MaxLife = 15;
+            MaxLife = 16;
             MaxDamage = 2;
             Name = "Baby Gorgon ";
             Life = 12;

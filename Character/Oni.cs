@@ -25,7 +25,7 @@ namespace LibarayOfDoom
         public Oni()
         {
             MaxLife = 24;
-            MaxDamage = 9;
+            MaxDamage = 10;
             Name = "Calm Oni ";
             Life = 24;
             HitChance = 22;

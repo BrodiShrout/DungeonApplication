@@ -25,7 +25,7 @@ namespace LibarayOfDoom
         public Kitsuna()
         {
             MaxLife = 25;
-            MaxDamage = 10;
+            MaxDamage = 11;
             Name = "Wondering Kitsuna ";
             Life = 25;
             HitChance = 25;

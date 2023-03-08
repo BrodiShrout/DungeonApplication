@@ -18,7 +18,7 @@ namespace LibarayOfDoom
         public Akashita()
         {
             MaxLife = 24;
-            MaxDamage = 9;
+            MaxDamage = 10;
             Name = "Uncovered Archer";
             Life = 24;
             HitChance = 10;

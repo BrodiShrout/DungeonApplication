@@ -26,7 +26,7 @@ namespace LibarayOfDoom
         public Ashimagari()
         {
             MaxLife = 23;
-            MaxDamage = 8;
+            MaxDamage = 9;
             Name = "Ashimagari (out)";
             Life = 23;
             HitChance = 18;

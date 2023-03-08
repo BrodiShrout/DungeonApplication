@@ -26,11 +26,9 @@ namespace DungeonApplication_fin_
             #region Player Creation
             //Variable to keep score
             int score = 0;
-            int monsters = 0;
 
             // Weapon creation
             //Potential Expantion - Displays a list of weapons and let them pick
-            bool end = false;
             // Play object creation
             //Potential Expantion - let them enter their own name and show them the races and let them pick one
             string playerName = " ";
@@ -44,8 +42,6 @@ namespace DungeonApplication_fin_
             Console.WriteLine($"\nWelcome to the Forest {playerName}\n");
             #region Character input/Menu
             bool validRace = false;
-            bool chosen = true;
-            bool noChosen = false;
             do
             {
                 Console.WriteLine("I grant you the choice to choose who you shall be...... However, I must advice you to think carefully.....\n" +
@@ -61,7 +57,6 @@ namespace DungeonApplication_fin_
                         "\t9.) Human,\n");
                 raceChoice = Console.ReadLine();
                 Console.Clear();
-
                 switch (raceChoice)
                 {
                     case "1":
@@ -71,7 +66,7 @@ namespace DungeonApplication_fin_
                         ConsoleKey user = Console.ReadKey(true).Key;
                         if (true)
                         {
-                            chosen = true;
+                            Console.WriteLine($"You are a {playerRace}");
                         }
                         break;
                     case "2":
@@ -81,7 +76,7 @@ namespace DungeonApplication_fin_
                         ConsoleKey user2 = Console.ReadKey(true).Key;
                         if (true)
                         {
-                            chosen = true;
+                            Console.WriteLine($"You are a {playerRace}");
                         }
                         break;
                     case "3":
@@ -91,7 +86,7 @@ namespace DungeonApplication_fin_
                         ConsoleKey user3 = Console.ReadKey(true).Key;
                         if (true)
                         {
-                            chosen = true;
+                            Console.WriteLine($"You are a {playerRace}");
                         }
                         break;
                     case "4":
@@ -101,7 +96,7 @@ namespace DungeonApplication_fin_
                         ConsoleKey user4 = Console.ReadKey(true).Key;
                         if (true)
                         {
-                            chosen = true;
+                            Console.WriteLine($"You are a {playerRace}");
                         }
                         break;
                     case "5":
@@ -111,7 +106,7 @@ namespace DungeonApplication_fin_
                         ConsoleKey user5 = Console.ReadKey(true).Key;
                         if (true)
                         {
-                            chosen = true;
+                            Console.WriteLine($"You are a {playerRace}");
                         }
                         break;
                     case "6":
@@ -121,7 +116,7 @@ namespace DungeonApplication_fin_
                         ConsoleKey user6 = Console.ReadKey(true).Key;
                         if (true)
                         {
-                            chosen = true;
+                            Console.WriteLine($"You are a {playerRace}");
                         }
                         break;
                     case "7":
@@ -131,7 +126,7 @@ namespace DungeonApplication_fin_
                         ConsoleKey user7 = Console.ReadKey(true).Key;
                         if (true)
                         {
-                            chosen = true;
+                            Console.WriteLine($"You are a {playerRace}");
                         }
                         break;
                     case "8":
@@ -141,7 +136,7 @@ namespace DungeonApplication_fin_
                         ConsoleKey user8 = Console.ReadKey(true).Key;
                         if (true)
                         {
-                            chosen = true;
+                            Console.WriteLine($"You are a {playerRace}");
                         }
                         break;
                     case "9":
@@ -151,7 +146,7 @@ namespace DungeonApplication_fin_
                         ConsoleKey user9 = Console.ReadKey(true).Key;
                         if (true)
                         {
-                            chosen = true;
+                            Console.WriteLine($"You are a {playerRace}");
                         }
                         break;
                     default:
@@ -173,7 +168,6 @@ namespace DungeonApplication_fin_
 
             #region Main Game Loop
             bool exit = false;
-            string main;
             do
             {
                 //TODID Generate a random room

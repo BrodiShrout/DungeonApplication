@@ -52,7 +52,7 @@ namespace LibarayOfDoom
         public NoviceVampire()
         {
             MaxLife = 17;
-            MaxDamage = 5;
+            MaxDamage = 6;
             Name = "Newborn Vampire";
             Life = 17;
             HitChance = 10;
