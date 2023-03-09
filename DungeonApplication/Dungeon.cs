@@ -5,7 +5,7 @@ using System.Threading;
 using LibarayOfDoom;
 using LibraryOfDoom;
 
-namespace DungeonApplication_fin_
+namespace DungeonApplication
 {
     internal class Dungeon
     {
