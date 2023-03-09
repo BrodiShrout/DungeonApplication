@@ -13,7 +13,7 @@ namespace LibarayOfDoom
         //Props
         public bool IsWondering { get; set; }
 
-
+        
         //Constructors/Ctors
         public Kitsuna(string name, int maxLife, int hitChance, int block, int maxDamage, int minDamage, string description, WeaponTypes weaponDrop, bool isWondering)
             : base(name, maxLife, hitChance, block, maxDamage, minDamage, description, weaponDrop)
@@ -21,7 +21,7 @@ namespace LibarayOfDoom
             IsWondering = isWondering;
         }
 
-        //Method
+        //MethodR
         public Kitsuna()
         {
             MaxLife = 25;
